@@ -56,8 +56,8 @@ const FooterPage = () => {
             </h3>
             <ul className="space-y-2 text-sm text-gray-400">
               <li>Email: support@softmaxschool.com</li>
-              <li>Phone: </li>
-              <li>Address: 123 Education Way, Knowledge City</li>
+              <li>Phone:+88 09678677677 </li>
+              <li>Address: Gazipur Dhaka</li>
             </ul>
           </div>
 
