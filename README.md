@@ -1,8 +1,8 @@
 # Next.js & HeroUI Template
 
-This is a template for creating applications using Next.js 14 (app directory) and HeroUI (v2).
+# Student Course Dashboard
 
-[Try it on CodeSandbox](https://githubbox.com/heroui-inc/heroui/next-app-template)
+Softmax Online School's Student Course Dashboard is a Next.js-based platform for students, instructors, and administrators to manage and interact with online courses. The dashboard includes role-based functionalities and a responsive, visually appealing design.
 
 ## Technologies Used
 
@@ -16,13 +16,78 @@ This is a template for creating applications using Next.js 14 (app directory) an
 
 ## How to Use
 
-### Use the template with create-next-app
+## Project Overview
 
-To create a new project based on this template using `create-next-app`, run the following command:
+The Student Course Dashboard is a role-based system with three user roles:
 
-```bash
-npx create-next-app -e https://github.com/heroui-inc/next-app-template
-```
+- **Admin**: Full control over the platform, including user and course management, analytics, and reporting.
+- **Instructor**: Create, edit, and manage courses, track student engagement, and respond to student queries.
+- **Student**: View enrolled courses, track progress, complete lessons, and submit feedback or reviews.
+
+Key Features:
+
+- Role-based navigation and access control.
+- Fully responsive design using **Tailwind CSS**.
+- Interactive visual elements like progress bars and pie charts.
+- Dynamic permission updates for roles.
+- Mocked APIs for data simulation.
+- Authentication using **NextAuth.js**.
+
+## Features and Functionality
+
+### Admin Dashboard
+
+- Manage users, roles, and permissions.
+- View site analytics (e.g., total users, courses, and student progress).
+- Generate reports (e.g., top-performing courses, user activity).
+
+### Instructor Dashboard
+
+- Create, edit, and manage courses with detailed descriptions, prices, and prerequisites.
+- View student engagement metrics (e.g., lesson completion rates).
+- Respond to student queries.
+
+### Student Dashboard
+
+- View enrolled courses and track progress with interactive visualizations.
+- Access course materials, mark lessons as complete, and submit feedback.
+- View detailed course information, including lesson lists, instructor details, and progress indicators.
+- Download course materials and take quizzes.
+
+### Additional Features
+
+- **Role-Based Navigation**: The navigation bar updates dynamically based on the logged-in user's role.
+- **Dynamic Permission Updates**: Admins can modify roles and permissions, and changes reflect immediately.
+- **Responsive Design**: Optimized for mobile, tablet, and desktop using Tailwind CSS.
+- **Interactive UI**: Includes modals, hover effects, and validation for enhanced user interaction.
+
+## Tech Stack
+
+- **Framework**: Next.js
+- **Styling**: Tailwind CSS
+- **Authentication**: NextAuth.js
+- **State Management**: React Context
+- **TypeScript**: Ensures type safety
+- **Deployment**: Vercel
+- **Mock APIs**: JSON or local state for data simulation
+
+## How to Run the Project Locally
+
+### Prerequisites
+
+1. Install **Node.js** (v18 or above) and **npm**.
+2. Install **Git**.
+
+### Steps
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/EngrArfin/online-school-client-course-app
+   cd student-course-dashboard
+   ```
+
+````
+
 
 ### Install dependencies
 
@@ -30,7 +95,7 @@ You can use one of them `npm`, `yarn`, `pnpm`, `bun`, Example using `npm`:
 
 ```bash
 npm install
-```
+````
 
 ### Run the development server
 
