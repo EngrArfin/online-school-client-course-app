@@ -2,6 +2,9 @@
 
 # Student Course Dashboard
 
+Live Link: https://sa-soft-institute-online.vercel.app
+Git Link: https://github.com/EngrArfin/online-school-client-course-app
+
 Softmax Online School's Student Course Dashboard is a Next.js-based platform for students, instructors, and administrators to manage and interact with online courses. The dashboard includes role-based functionalities and a responsive, visually appealing design.
 
 ## Technologies Used
